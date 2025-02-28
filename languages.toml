@@ -1,0 +1,19 @@
+[[language]]
+name = "nim"
+auto-format = true
+formatter = { command = "nph", args = ["-"] }
+
+[[language]]
+name = "toml"
+auto-format = true
+formatter = { command = "taplo", args = ["fmt", "-"] }
+
+[[language]]
+name = "json"
+auto-format = true
+formatter = { command = "fixjson" }
+
+[[language]]
+name = "cpp"
+auto-format = true
+formatter = { command = "clang-format" }
