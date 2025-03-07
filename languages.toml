@@ -21,9 +21,8 @@ formatter = { command = "clang-format" }
 [[language]]
 name = "c-sharp"
 auto-format = true
-formatter = { command = "dotnet-csharpier", args=["--no-cache", "--no-msbuild-check", "--fast"] }
-
-[[language]]
-name = "v"
-auto-format = true
-formatter = { command = "v", args=["fmt"] }
+formatter = { command = "dotnet-csharpier", args = [
+  "--no-cache",
+  "--no-msbuild-check",
+  "--fast",
+] }
