@@ -1,4 +1,4 @@
-theme = "emacs"
+theme = "penumbra+"
 
 [editor]
 mouse = false
