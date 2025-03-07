@@ -17,3 +17,13 @@ formatter = { command = "fixjson" }
 name = "cpp"
 auto-format = true
 formatter = { command = "clang-format" }
+
+[[language]]
+name = "c-sharp"
+auto-format = true
+formatter = { command = "clang-format" }
+
+[[language]]
+name = "v"
+auto-format = true
+formatter = { command = "v", args=["fmt"] }
