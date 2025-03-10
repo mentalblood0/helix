@@ -19,6 +19,11 @@ auto-format = true
 formatter = { command = "clang-format" }
 
 [[language]]
+name = "crystal"
+auto-format = true
+formatter = { command = "crystal", args = ["tool", "format", "-"] }
+
+[[language]]
 name = "c-sharp"
 auto-format = true
 formatter = { command = "dotnet-csharpier", args = [
