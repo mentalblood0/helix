@@ -4,6 +4,7 @@ theme = "penumbra+"
 mouse = false
 scrolloff = 0
 cursorline = true
+cursorcolumn = true
 true-color = true
 gutters = []
 completion-timeout = 5
@@ -33,6 +34,7 @@ S-k = "@kkkkk"
 w = ":update"
 "ц" = ":write"
 q = ":quit"
+m = ":bc!"
 
 [keys.insert]
 C-left = "@<esc>bi"
